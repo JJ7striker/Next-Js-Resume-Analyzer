@@ -7,13 +7,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB2shMAYsqfVTLIrpQl6XtxttTB-d-1oS0",
+  apiKey: process.env.NEXT_PUBLIC_FIRBASE_API_KEY,
   authDomain: "queueflow-c7af4.firebaseapp.com",
   projectId: "queueflow-c7af4",
   storageBucket: "queueflow-c7af4.firebasestorage.app",
   messagingSenderId: "1007662352175",
-  appId: "1:1007662352175:web:d7248d5c77539ad59783da",
-  measurementId: "G-SG0B5CPZSK"
+  appId: "1:1007662352175:web:ba9b92a62783ffb99783da",
+  measurementId: "G-9JC6HNYR23"
 };
 
 // Initialize Firebase
